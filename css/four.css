@@ -1,0 +1,212 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+p,
+body {
+  margin: 0;
+  font-family: "Sora", sans-serif;
+}
+
+body {
+  background-color: #000000;
+}
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.four__content {
+  padding: 20px;
+  width: 664px;
+  /* border: 2px solid red; */
+  background-color: #ffffffff;
+  position: relative;
+  left: 25%;
+  top: 8px;
+  background: #ffffff;
+  /* тень на карточки */
+
+  box-shadow: 0px 6px 24px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.four__title {
+  /* font-family: "Sora"; */
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 20px 0px 24px;
+  color: #000000;
+}
+
+.top__label {
+  /* font-family: "Sora"; */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #000000;
+}
+
+.top__form input {
+  padding: 16px;
+  opacity: 0.5;
+  border: 0.5px solid #aeaeae;
+  box-sizing: border-box;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+.middle__four {
+  margin-top: 16px;
+}
+
+.middle__label {
+  /* font-family: "Sora"; */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #000000;
+}
+
+.middle__form input {
+  margin-top: 10px;
+  padding: 16px;
+  opacity: 0.5;
+  border: 0.5px solid #aeaeae;
+  box-sizing: border-box;
+  border-radius: 8px;
+  /* margin-right: 8px; */
+}
+
+.middle__four {
+  position: relative;
+}
+
+.first__svg {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  /* background-color: #000000; */
+  left: 27%;
+  top: 17%;
+}
+.second__svg {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  /* background-color: #000000; */
+  left: 93%;
+  top: 40%;
+}
+
+input::placeholder {
+  /* font-family: "Sora"; */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: gray;
+}
+
+.middle__form .middle__date {
+  padding: 15px 300px 15px 15px;
+}
+
+.middle__form .middle__date {
+  width: 616px;
+}
+
+.four__button {
+  display: flex;
+  justify-content: center;
+  padding: 30px 0px;
+}
+
+.btn {
+  /* font-family: "Sora"; */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: 1px;
+  color: #ffffff;
+  background: #232529;
+  border-radius: 4px;
+  border: none;
+  padding: 15px 150px;
+}
+
+.top__first::placeholder {
+  width: 408px;
+}
+
+.top__form .top__first {
+  padding: 15px 224px 15px 15px;
+}
+
+.top__form .top__same {
+  padding: 15px 121px 15px 15px;
+}
+
+.top__same::placeholder {
+  width: 308px;
+}
+
+.select__first {
+  /* font-family: "Sora"; */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #dadada;
+  padding: 15px 82px 15px 15px;
+  /* opacity: 0.5; */
+  border: 0.5px solid #aeaeae;
+  box-sizing: border-box;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+.select__second {
+  /* font-family: "Sora"; */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #dadada;
+  padding: 15px 38px 15px 15px;
+  /* opacity: 0.5; */
+  border: 0.5px solid #aeaeae;
+  box-sizing: border-box;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+.select__third {
+  /* font-family: "Sora"; */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #dadada;
+  /* opacity: 0.5; */
+  border: 0.5px solid #aeaeae;
+  box-sizing: border-box;
+  border-radius: 8px;
+  padding: 15px 300px 15px 15px;
+  margin-top: 10px;
+  width: 616px;
+}
+
+select::marker{
+  background-color: aqua;
+}
