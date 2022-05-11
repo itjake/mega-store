@@ -211,7 +211,7 @@ select::marker{
   background-color: aqua;
 }
 
-@media screen and (max-width: 2560px) {
+@media screen and (min-width: 2559px) {
   .four__content{
     top: 250px;
   }
