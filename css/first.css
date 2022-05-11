@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap");
 
 * {
   box-sizing: border-box;
@@ -25,11 +25,11 @@ body {
   background-color: #ffffff;
   border-radius: 4px;
   width: 640px;
-  display: flex;
-  align-items: center;
+  /* display: flex;
+  align-items: center; */
   position: relative;
   top: 175px;
-  left: 350px;
+  left: 28%;
   padding: 15px;
 }
 /* .wrapper{
@@ -46,7 +46,6 @@ body {
   color: #000000;
   padding: 40px 0px 16px;
 }
-
 
 label {
   font-family: "Sora";
@@ -79,7 +78,7 @@ input::placeholder {
   color: rgba(0, 0, 0, 0.25);
 }
 
-.first__button{
+.first__button {
   padding: 16px 0px 48px;
   display: flex;
   justify-content: center;
@@ -98,4 +97,10 @@ input::placeholder {
   padding: 15px 150px;
   border: none;
   cursor: pointer;
+}
+
+@media screen and (min-width: 2560px) {
+  .first__content{
+    top: 365px;
+  }
 }

@@ -27,7 +27,7 @@ body {
   /* border: 2px solid red; */
   background-color: #ffffffff;
   position: relative;
-  left: 25%;
+  left: 26%;
   top: 15px;
   background: #ffffff;
   /* тень на карточки */
@@ -149,4 +149,11 @@ input::placeholder {
 }
 .place__various::placeholder {
   width: 227px;
+}
+
+
+@media screen and (min-width: 2560px) {
+  .third__content{
+    top: 265px;
+  }
 }
