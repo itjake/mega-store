@@ -152,7 +152,7 @@ input::placeholder {
 }
 
 
-@media screen and (min-width: 2560px) {
+@media screen and (max-width: 2560px) {
   .third__content{
     top: 265px;
   }
