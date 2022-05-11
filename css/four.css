@@ -210,6 +210,10 @@ input::placeholder {
 select::marker{
   background-color: aqua;
 }
+a,
+.btn{
+  cursor: pointer
+}
 
 @media screen and (min-width: 2559px) {
   .four__content{

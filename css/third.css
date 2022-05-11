@@ -150,6 +150,10 @@ input::placeholder {
 .place__various::placeholder {
   width: 227px;
 }
+a,
+.btn{
+  cursor: pointer
+}
 
 
 @media screen and (min-width: 2559px) {
