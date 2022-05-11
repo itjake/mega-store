@@ -29,7 +29,7 @@ body {
   align-items: center; */
   position: relative;
   top: 175px;
-  left: 28%;
+  left: 25%;
   padding: 15px;
 }
 /* .wrapper{
@@ -102,5 +102,6 @@ input::placeholder {
 @media screen and (min-width: 2559px) {
   .first__content{
     top: 365px;
+    left: 28%;
   }
 }
