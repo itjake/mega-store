@@ -100,7 +100,7 @@ input::placeholder {
 }
 
 @media screen and (min-width: 2559px) {
-  .first__content{
+  .first__content {
     top: 365px;
     left: 28%;
   }
